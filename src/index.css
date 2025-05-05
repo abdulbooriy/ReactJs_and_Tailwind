@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: Lora;
+  src: url("../src/fonts/static/Lora-Regular.ttf");
+}
+
+@font-face {
+  font-family: Oxygen;
+  src: url("../src/fonts/Oxygen-Regular.ttf");
+}
+
+@theme {
+  --color-primary: #dd783f;
+}
+
+.container {
+  width: 100%;
+  max-width: 940px;
+}
