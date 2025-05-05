@@ -10,12 +10,12 @@ import rainbow__image from "../../assets/images/rainbow__image.png";
 
 const MostRecent = () => {
   return (
-    <section className="bg-[#F7F7F7] pt-[60px]">
+    <section className="bg-[#F7F7F7] pt-[60px] h-[900px]">
       <h1 className="font-[Oxygen] text-[20px] font-[400] text-[#2E2E2E] text-center">
         Most Recent
       </h1>
-      <div className="w-[188px] h-[1px] bg-[#DEDEDE] m-auto mt-[16px] mb-[50px]"></div>
-      <div className="container mx-auto flex flex-wrap gap-6">
+      <div className="w-[188px] h-[1px] bg-[#DEDEDE] m-auto mt-[16px]"></div>
+      <div className="container mx-auto flex flex-wrap gap-y-1 gap-x-6 mt-[39px]">
         <div className="w-[296px] h-[291px] bg-[white] mb-[50px]">
           <div>
             <img

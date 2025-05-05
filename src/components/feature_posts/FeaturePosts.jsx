@@ -67,6 +67,13 @@ const FeaturePosts = () => {
               </div>
             </div>
           </div>
+          <div className="absolute top-5 left-5">
+            <button className="w-[87px] h-[26px] bg-[#DD783F] rounded-[2px]">
+              <span className="uppercase text-[#FFFFFF] text-[12px] font-[400] cursor-pointer">
+                Adventure
+              </span>
+            </button>
+          </div>
         </div>
       </div>
     </section>
